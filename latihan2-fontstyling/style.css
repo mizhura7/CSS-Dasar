@@ -1,0 +1,25 @@
+h1 {
+    /* Penggunaan banyak font berfungsi jika pada komputer
+    user tidak terdapat font tersebut akan di cari font selanjutnya */
+    font-family: arial,Verdana, Tahoma, sans-serif;
+
+    /* Untuk tentukan size font ada format px,%,em */
+    font-size: 100px;
+
+    /* Untuk hasil huruf besar di awal dan selanjutnya
+    tetap huruf besar namun lebih kecil dari hufu awalan  */
+    font-variant: small-caps;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    /* Untuk menentukan ketebalan font */
+    font-weight: bold;
+
+    /* Untuk membuat font menjadi italic dll */
+    font-style: italic;
+
+    /* Untuk mengatur jarak antar baris/paragraf */
+    line-height: 20px;
+}
