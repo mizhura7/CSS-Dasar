@@ -1,0 +1,39 @@
+body {
+    font-family: arial;
+}
+
+/* Selector bisa di gabung dengan , tanda koma */
+h1,h2 {
+    color: red;
+}
+
+h2 {
+    font-style: italic;
+}
+
+/* Untuk membuat selector pada list harus berurutan dari ol/ul lalu list dan anchor a */
+ul li a {
+    color: green;
+}
+ol li a {
+    color: orange;
+}
+
+/* Selector untuk id menggunakan # pada css */
+#p1 {
+    color: orangered;
+}
+
+/* Selector untuk class menggunakan . pada css */
+.p2 {
+    color: blueviolet;
+}
+
+.cetak-tebal {
+    font-weight: bold;
+}
+
+/* Selector ini di baca semua paragraf dengan class yang mengandung cetak tebal akan di eksekusi */
+p.cetak-tebal {
+    font-size: 20px;
+}

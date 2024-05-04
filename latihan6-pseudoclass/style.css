@@ -1,0 +1,47 @@
+.hello {
+    color: orange;
+}
+
+/* hover ini ketika mouse kita mengarah pada text yang kita berikan class ini */
+.hello:hover {
+    color: green;
+    font-family: georgia;
+    font-size: 20px;
+}
+
+/* active ini akan mengubah text saat kita klink link */
+.hello:active {
+    font-style: italic;
+}
+
+/* visited ini akan mengubah text link saat kita sudah mengunjungi link tersebut */
+.hello:visited {
+    color: red;
+}
+
+/* Ini pemilihan selector untuk sistem parent and child */
+li:first-child a {
+    color: green;
+}
+
+li:last-child a {
+    color: violet;
+}
+
+li:nth-child(3) a {
+    color: brown;
+}
+
+/* 
+- Bisa menggunakan sistem kelipatan dan mateamatika lainya untuk coloring di nth child ini 
+- Bisa menggunakan even(genap) dan odd(ganjil)
+*/
+li:nth-child(2n) a {
+    color: yellow;
+}
+
+/* Untuk mengubah paragraf pertama berwarna merah jika ingin paragraf terakhir p:last-of-type */
+p:first-of-type {
+    color: red;
+}
+
