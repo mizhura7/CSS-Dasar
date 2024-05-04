@@ -1,0 +1,18 @@
+h1 {
+    
+}
+body {
+    /* Untuk mengatur warna background seluruh halaman web */
+    background-color: lightcyan;
+
+    /* Untuk membuat gambar sbg background walaupun ukuran kecil gambar akan berulang */
+    background-image: url(image/6.png);
+
+    /* Untuk mengatur perulangan gambar background */
+    background-repeat: no-repeat;
+
+    /* Mengatur posisi gambar berada dimana */
+    background-position: top center;
+
+    /* format singkat bg = background : lightgreen ur(bg.png) top left no-repeat; */
+}

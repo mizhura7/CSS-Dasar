@@ -1,0 +1,35 @@
+h1 {
+    font-size: 100px;
+    /* Pemilihan warna dengan kata-kata di bahasa inggris */
+    color: brown;
+
+    /* Pemilihan posisi pada text */
+    text-align: center;
+}
+
+h2 {
+    /* Pemilihan warna dengan format rgb */
+    color: rgb(115,80,212);
+
+}
+
+p {
+    /* Pemilihan warna dengan hexadecimal 0 - F */
+    color: #ff233f;
+
+    /* Untuk indent text (masuk kedalam) pada paragraf */
+    text-indent: 10px;
+
+    /* Untuk membuat dekorasi text seperti underline through line dll */
+    text-decoration: underline;
+
+    /* Untuk memaksa text besar semua kecil semua */
+    text-transform: uppercase;
+
+    /* Untuk mengatur jarak antar huruf */
+    letter-spacing: 5px;
+
+    /* Untuk mengatur jarak antar kata */
+    word-spacing: 2px;
+
+}
